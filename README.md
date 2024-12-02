@@ -9,7 +9,9 @@ Este projeto é uma API REST desenvolvida em .NET 8 com um banco de dados SQL Ser
 - [SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 - [Git](https://git-scm.com/)
 
-## Configuração do Ambiente
+
+## Screenshot
+![Interface da Api](interfaceSystem/Api.png)
 
 ### Clonar o Repositório
 ```sh
