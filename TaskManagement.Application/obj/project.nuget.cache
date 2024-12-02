@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eyLqW5gWJJs=",
+  "dgSpecHash": "a3hk9ZmqQbI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\manoe\\source\\repos\\TaskManagement.Application\\TaskManagement.Application.csproj",
+  "projectFilePath": "C:\\Projeto\\ApiTask\\TaskManagement.Application\\TaskManagement.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

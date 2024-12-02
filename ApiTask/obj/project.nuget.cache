@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l6ETT4lAayQ=",
+  "dgSpecHash": "O3vVZtly5ao=",
   "success": true,
-  "projectFilePath": "C:\\Users\\manoe\\source\\repos\\ApiTask\\ApiTask.csproj",
+  "projectFilePath": "C:\\Projeto\\ApiTask\\ApiTask\\ApiTask.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\manoe\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\manoe\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

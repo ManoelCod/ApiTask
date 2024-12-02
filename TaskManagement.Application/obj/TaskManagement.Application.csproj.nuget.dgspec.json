@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\manoe\\source\\repos\\TaskManagement.Application\\TaskManagement.Application.csproj": {}
+    "C:\\Projeto\\ApiTask\\TaskManagement.Application\\TaskManagement.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\manoe\\source\\repos\\TaskManagement.Application\\TaskManagement.Application.csproj": {
+    "C:\\Projeto\\ApiTask\\TaskManagement.Application\\TaskManagement.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\manoe\\source\\repos\\TaskManagement.Application\\TaskManagement.Application.csproj",
+        "projectUniqueName": "C:\\Projeto\\ApiTask\\TaskManagement.Application\\TaskManagement.Application.csproj",
         "projectName": "TaskManagement.Application",
-        "projectPath": "C:\\Users\\manoe\\source\\repos\\TaskManagement.Application\\TaskManagement.Application.csproj",
+        "projectPath": "C:\\Projeto\\ApiTask\\TaskManagement.Application\\TaskManagement.Application.csproj",
         "packagesPath": "C:\\Users\\manoe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\manoe\\source\\repos\\TaskManagement.Application\\obj\\",
+        "outputPath": "C:\\Projeto\\ApiTask\\TaskManagement.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\manoe\\source\\repos\\TaskManagement.Domain\\TaskManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\manoe\\source\\repos\\TaskManagement.Domain\\TaskManagement.Domain.csproj"
+              "C:\\Projeto\\ApiTask\\TaskManagement.Domain\\TaskManagement.Domain.csproj": {
+                "projectPath": "C:\\Projeto\\ApiTask\\TaskManagement.Domain\\TaskManagement.Domain.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "C:\\Users\\manoe\\source\\repos\\TaskManagement.Domain\\TaskManagement.Domain.csproj": {
+    "C:\\Projeto\\ApiTask\\TaskManagement.Domain\\TaskManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\manoe\\source\\repos\\TaskManagement.Domain\\TaskManagement.Domain.csproj",
+        "projectUniqueName": "C:\\Projeto\\ApiTask\\TaskManagement.Domain\\TaskManagement.Domain.csproj",
         "projectName": "TaskManagement.Domain",
-        "projectPath": "C:\\Users\\manoe\\source\\repos\\TaskManagement.Domain\\TaskManagement.Domain.csproj",
+        "projectPath": "C:\\Projeto\\ApiTask\\TaskManagement.Domain\\TaskManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\manoe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\manoe\\source\\repos\\TaskManagement.Domain\\obj\\",
+        "outputPath": "C:\\Projeto\\ApiTask\\TaskManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

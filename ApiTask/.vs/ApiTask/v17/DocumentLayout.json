@@ -1,21 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\manoe\\source\\repos\\ApiTask\\",
+  "WorkspaceRootPath": "C:\\Projeto\\ApiTask\\ApiTask\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F12D72D5-8B0D-46C6-9978-B075123CA80B}|ApiTask.csproj|c:\\users\\manoe\\source\\repos\\apitask\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F12D72D5-8B0D-46C6-9978-B075123CA80B}|ApiTask.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F12D72D5-8B0D-46C6-9978-B075123CA80B}|ApiTask.csproj|c:\\users\\manoe\\source\\repos\\apitask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F12D72D5-8B0D-46C6-9978-B075123CA80B}|ApiTask.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F12D72D5-8B0D-46C6-9978-B075123CA80B}|ApiTask.csproj|c:\\users\\manoe\\source\\repos\\apitask\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F12D72D5-8B0D-46C6-9978-B075123CA80B}|ApiTask.csproj|c:\\projeto\\apitask\\apitask\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F12D72D5-8B0D-46C6-9978-B075123CA80B}|ApiTask.csproj|solutionrelative:controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34102249-8916-4F90-B557-CFA97FEB5D46}|..\\TaskManagement.Infrastructure\\TaskManagement.Infrastructure.csproj|c:\\users\\manoe\\source\\repos\\taskmanagement.infrastructure\\data\\taskdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F12D72D5-8B0D-46C6-9978-B075123CA80B}|ApiTask.csproj|c:\\projeto\\apitask\\apitask\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F12D72D5-8B0D-46C6-9978-B075123CA80B}|ApiTask.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12D72D5-8B0D-46C6-9978-B075123CA80B}|ApiTask.csproj|c:\\projeto\\apitask\\apitask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12D72D5-8B0D-46C6-9978-B075123CA80B}|ApiTask.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,15 +22,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\manoe\\source\\repos\\ApiTask\\appsettings.json",
+              "DocumentMoniker": "C:\\Projeto\\ApiTask\\ApiTask\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\manoe\\source\\repos\\ApiTask\\appsettings.json",
+              "ToolTip": "C:\\Projeto\\ApiTask\\ApiTask\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -42,11 +39,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\manoe\\source\\repos\\ApiTask\\Program.cs",
+              "DocumentMoniker": "C:\\Projeto\\ApiTask\\ApiTask\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\manoe\\source\\repos\\ApiTask\\Program.cs",
+              "ToolTip": "C:\\Projeto\\ApiTask\\ApiTask\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -54,27 +51,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "TasksController.cs",
-              "DocumentMoniker": "C:\\Users\\manoe\\source\\repos\\ApiTask\\Controllers\\TasksController.cs",
+              "DocumentMoniker": "C:\\Projeto\\ApiTask\\ApiTask\\Controllers\\TasksController.cs",
               "RelativeDocumentMoniker": "Controllers\\TasksController.cs",
-              "ToolTip": "C:\\Users\\manoe\\source\\repos\\ApiTask\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Projeto\\ApiTask\\ApiTask\\Controllers\\TasksController.cs",
               "RelativeToolTip": "Controllers\\TasksController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T18:26:26.881Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TaskDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\manoe\\source\\repos\\TaskManagement.Infrastructure\\Data\\TaskDbContext.cs",
-              "RelativeDocumentMoniker": "..\\TaskManagement.Infrastructure\\Data\\TaskDbContext.cs",
-              "ToolTip": "C:\\Users\\manoe\\source\\repos\\TaskManagement.Infrastructure\\Data\\TaskDbContext.cs",
-              "RelativeToolTip": "..\\TaskManagement.Infrastructure\\Data\\TaskDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T18:26:22.33Z"
+              "WhenOpened": "2024-11-30T18:26:26.881Z",
+              "EditorCaption": ""
             }
           ]
         }
