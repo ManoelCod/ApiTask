@@ -1,5 +1,4 @@
-﻿using System;
-using TaskManagement.Domain.IRepositories;
+﻿using TaskManagement.Domain.IRepositories;
 using Task = TaskManagement.Domain.Models.Task;
 
 namespace TaskManagement.Application.Services

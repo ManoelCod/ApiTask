@@ -1,5 +1,58 @@
 [
   {
+    "ContainingType": "ApiTask.Controllers.PedidoController",
+    "Method": "CriarPedido",
+    "RelativePath": "api/Pedido",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nomeCliente",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiTask.Controllers.PedidoController",
+    "Method": "AdicionarItem",
+    "RelativePath": "api/Pedido/{pedidoId}/itens",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pedidoId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "itemDto",
+        "Type": "ApiTask.DTOs.ItemDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiTask.Controllers.PedidoController",
+    "Method": "CalcularValorTotal",
+    "RelativePath": "api/Pedido/{pedidoId}/valorTotal",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pedidoId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ApiTask.Controllers.TasksController",
     "Method": "GetTasks",
     "RelativePath": "api/Tasks",

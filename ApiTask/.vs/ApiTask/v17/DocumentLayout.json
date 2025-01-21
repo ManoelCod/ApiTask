@@ -3,7 +3,42 @@
   "WorkspaceRootPath": "C:\\Projeto\\ApiTask\\ApiTask\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projeto\\TaskManagementWPF\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+      "AbsoluteMoniker": "D:0:0:{34102249-8916-4F90-B557-CFA97FEB5D46}|..\\TaskManagement.Infrastructure\\TaskManagement.Infrastructure.csproj|c:\\projeto\\apitask\\taskmanagement.infrastructure\\repositoreis\\pedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE2EFC1C-791F-44DE-83CC-29A48D45B7AB}|..\\TaskManagement.Application\\TaskManagement.Application.csproj|c:\\projeto\\apitask\\taskmanagement.application\\service\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE2EFC1C-791F-44DE-83CC-29A48D45B7AB}|..\\TaskManagement.Application\\TaskManagement.Application.csproj|c:\\projeto\\apitask\\taskmanagement.application\\pedidoapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E89C39B-DE0C-4727-9399-E3ECDCFB091C}|..\\TaskManagement.Domain\\TaskManagement.Domain.csproj|c:\\projeto\\apitask\\taskmanagement.domain\\models\\itempedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12D72D5-8B0D-46C6-9978-B075123CA80B}|ApiTask.csproj|c:\\projeto\\apitask\\apitask\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12D72D5-8B0D-46C6-9978-B075123CA80B}|ApiTask.csproj|solutionrelative:controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E89C39B-DE0C-4727-9399-E3ECDCFB091C}|..\\TaskManagement.Domain\\TaskManagement.Domain.csproj|c:\\projeto\\apitask\\taskmanagement.domain\\irepositoreis\\ipedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12D72D5-8B0D-46C6-9978-B075123CA80B}|ApiTask.csproj|c:\\projeto\\apitask\\apitask\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12D72D5-8B0D-46C6-9978-B075123CA80B}|ApiTask.csproj|solutionrelative:controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12D72D5-8B0D-46C6-9978-B075123CA80B}|ApiTask.csproj|c:\\projeto\\apitask\\apitask\\dtos\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12D72D5-8B0D-46C6-9978-B075123CA80B}|ApiTask.csproj|solutionrelative:dtos\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12D72D5-8B0D-46C6-9978-B075123CA80B}|ApiTask.csproj|c:\\projeto\\apitask\\apitask\\apitask.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F12D72D5-8B0D-46C6-9978-B075123CA80B}|ApiTask.csproj|solutionrelative:apitask.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12D72D5-8B0D-46C6-9978-B075123CA80B}|ApiTask.csproj|c:\\projeto\\apitask\\apitask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12D72D5-8B0D-46C6-9978-B075123CA80B}|ApiTask.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE2EFC1C-791F-44DE-83CC-29A48D45B7AB}|..\\TaskManagement.Application\\TaskManagement.Application.csproj|c:\\projeto\\apitask\\taskmanagement.application\\service\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,19 +48,149 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PedidoController.cs",
+              "DocumentMoniker": "C:\\Projeto\\ApiTask\\ApiTask\\Controllers\\PedidoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PedidoController.cs",
+              "ToolTip": "C:\\Projeto\\ApiTask\\ApiTask\\Controllers\\PedidoController.cs",
+              "RelativeToolTip": "Controllers\\PedidoController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAvwBoAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T15:55:11.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PedidoApplication.cs",
+              "DocumentMoniker": "C:\\Projeto\\ApiTask\\TaskManagement.Application\\PedidoApplication.cs",
+              "RelativeDocumentMoniker": "..\\TaskManagement.Application\\PedidoApplication.cs",
+              "ToolTip": "C:\\Projeto\\ApiTask\\TaskManagement.Application\\PedidoApplication.cs",
+              "RelativeToolTip": "..\\TaskManagement.Application\\PedidoApplication.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAArwBoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T14:58:18.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PedidoService.cs",
+              "DocumentMoniker": "C:\\Projeto\\ApiTask\\TaskManagement.Application\\Service\\PedidoService.cs",
+              "RelativeDocumentMoniker": "..\\TaskManagement.Application\\Service\\PedidoService.cs",
+              "ToolTip": "C:\\Projeto\\ApiTask\\TaskManagement.Application\\Service\\PedidoService.cs",
+              "RelativeToolTip": "..\\TaskManagement.Application\\Service\\PedidoService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAjwBwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T14:55:04.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "README.md",
-              "DocumentMoniker": "C:\\Projeto\\TaskManagementWPF\\README.md",
-              "RelativeDocumentMoniker": "..\\..\\TaskManagementWPF\\README.md",
-              "ToolTip": "C:\\Projeto\\TaskManagementWPF\\README.md",
-              "RelativeToolTip": "..\\..\\TaskManagementWPF\\README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-12-02T13:47:17.11Z",
+              "Title": "PedidoRepository.cs",
+              "DocumentMoniker": "C:\\Projeto\\ApiTask\\TaskManagement.Infrastructure\\Repositoreis\\PedidoRepository.cs",
+              "RelativeDocumentMoniker": "..\\TaskManagement.Infrastructure\\Repositoreis\\PedidoRepository.cs",
+              "ToolTip": "C:\\Projeto\\ApiTask\\TaskManagement.Infrastructure\\Repositoreis\\PedidoRepository.cs",
+              "RelativeToolTip": "..\\TaskManagement.Infrastructure\\Repositoreis\\PedidoRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAjwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T14:54:01.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ItemPedido.cs",
+              "DocumentMoniker": "C:\\Projeto\\ApiTask\\TaskManagement.Domain\\Models\\ItemPedido.cs",
+              "RelativeDocumentMoniker": "..\\TaskManagement.Domain\\Models\\ItemPedido.cs",
+              "ToolTip": "C:\\Projeto\\ApiTask\\TaskManagement.Domain\\Models\\ItemPedido.cs",
+              "RelativeToolTip": "..\\TaskManagement.Domain\\Models\\ItemPedido.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAArwA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T14:41:39.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IPedidoRepository.cs",
+              "DocumentMoniker": "C:\\Projeto\\ApiTask\\TaskManagement.Domain\\IRepositoreis\\IPedidoRepository.cs",
+              "RelativeDocumentMoniker": "..\\TaskManagement.Domain\\IRepositoreis\\IPedidoRepository.cs",
+              "ToolTip": "C:\\Projeto\\ApiTask\\TaskManagement.Domain\\IRepositoreis\\IPedidoRepository.cs",
+              "RelativeToolTip": "..\\TaskManagement.Domain\\IRepositoreis\\IPedidoRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAnwAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T14:51:14.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\Projeto\\ApiTask\\ApiTask\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Projeto\\ApiTask\\ApiTask\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "Controllers\\TasksController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T14:18:28.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projeto\\ApiTask\\ApiTask\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Projeto\\ApiTask\\ApiTask\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswBIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T15:52:22.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApiTask",
+              "DocumentMoniker": "C:\\Projeto\\ApiTask\\ApiTask\\ApiTask.csproj",
+              "RelativeDocumentMoniker": "ApiTask.csproj",
+              "ToolTip": "C:\\Projeto\\ApiTask\\ApiTask\\ApiTask.csproj",
+              "RelativeToolTip": "ApiTask.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-21T15:56:49.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ItemDTO.cs",
+              "DocumentMoniker": "C:\\Projeto\\ApiTask\\ApiTask\\DTOs\\ItemDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\ItemDTO.cs",
+              "ToolTip": "C:\\Projeto\\ApiTask\\ApiTask\\DTOs\\ItemDTO.cs",
+              "RelativeToolTip": "DTOs\\ItemDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T15:57:16.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\Projeto\\ApiTask\\TaskManagement.Application\\Service\\TaskService.cs",
+              "RelativeDocumentMoniker": "..\\TaskManagement.Application\\Service\\TaskService.cs",
+              "ToolTip": "C:\\Projeto\\ApiTask\\TaskManagement.Application\\Service\\TaskService.cs",
+              "RelativeToolTip": "..\\TaskManagement.Application\\Service\\TaskService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T14:44:18.877Z",
               "EditorCaption": ""
             }
           ]
