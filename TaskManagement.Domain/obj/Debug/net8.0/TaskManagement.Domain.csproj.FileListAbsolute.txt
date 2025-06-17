@@ -21,3 +21,15 @@ C:\Projeto\ApiTask\TaskManagement.Domain\obj\Debug\net8.0\TaskManagement.Domain.
 C:\Projeto\ApiTask\TaskManagement.Domain\obj\Debug\net8.0\refint\TaskManagement.Domain.dll
 C:\Projeto\ApiTask\TaskManagement.Domain\obj\Debug\net8.0\TaskManagement.Domain.pdb
 C:\Projeto\ApiTask\TaskManagement.Domain\obj\Debug\net8.0\ref\TaskManagement.Domain.dll
+C:\projetos\ApiTask\TaskManagement.Domain\bin\Debug\net8.0\TaskManagement.Domain.deps.json
+C:\projetos\ApiTask\TaskManagement.Domain\bin\Debug\net8.0\TaskManagement.Domain.dll
+C:\projetos\ApiTask\TaskManagement.Domain\bin\Debug\net8.0\TaskManagement.Domain.pdb
+C:\projetos\ApiTask\TaskManagement.Domain\obj\Debug\net8.0\TaskManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\projetos\ApiTask\TaskManagement.Domain\obj\Debug\net8.0\TaskManagement.Domain.AssemblyInfoInputs.cache
+C:\projetos\ApiTask\TaskManagement.Domain\obj\Debug\net8.0\TaskManagement.Domain.AssemblyInfo.cs
+C:\projetos\ApiTask\TaskManagement.Domain\obj\Debug\net8.0\TaskManagement.Domain.csproj.CoreCompileInputs.cache
+C:\projetos\ApiTask\TaskManagement.Domain\obj\Debug\net8.0\TaskManagement.Domain.sourcelink.json
+C:\projetos\ApiTask\TaskManagement.Domain\obj\Debug\net8.0\TaskManagement.Domain.dll
+C:\projetos\ApiTask\TaskManagement.Domain\obj\Debug\net8.0\refint\TaskManagement.Domain.dll
+C:\projetos\ApiTask\TaskManagement.Domain\obj\Debug\net8.0\TaskManagement.Domain.pdb
+C:\projetos\ApiTask\TaskManagement.Domain\obj\Debug\net8.0\ref\TaskManagement.Domain.dll
