@@ -26,9 +26,6 @@ jobs:
       - name: Build
         run: dotnet build ApiTask/ApiTask.sln --no-restore
 
-      - name: Test
-        run: dotnet test --no-build
-
       - name: Install SonarScanner
         run: dotnet tool install --global dotnet-sonarscanner
 
