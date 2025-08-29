@@ -1,33 +1,36 @@
 pipeline {
-  agent any
+    agent any
 
-  stages {
-    stage('Checkout') {
-      steps {
-        git url: 'https://github.com/ManoelCod/ApiTask.git', branch: 'main'
-      }
-    }
+    stages {
+        stage('Restore') {
+            steps {
+                sh 'dotnet restore'
+            }
+        }
 
-    stage('Restore & Build') {
-      steps {
-        sh 'dotnet restore'
-        sh 'dotnet build --configuration Release'
-      }
-    }
+        stage('Build') {
+            steps {
+                sh 'dotnet build --configuration Release'
+            }
+        }
 
-    stage('Docker Build') {
-      steps {
-        sh 'docker build -t ApiTask:latest .'
-      }
-    }
-  }
+        stage('Test') {
+            steps {
+                sh 'dotnet test'
+            }
+        }
 
-  post {
-    success {
-      echo 'Pipeline finalizado com sucesso!'
+        stage('Docker Build') {
+            steps {
+                sh 'docker build -t minha-api:latest .'
+            }
+        }
+
+        stage('Run Container') {
+            steps {
+                sh 'docker rm -f minha-api || true'
+                sh 'docker run -d --name minha-api -p 8081:80 minha-api:latest'
+            }
+        }
     }
-    failure {
-      echo 'Algo deu errado no pipeline.'
-    }
-  }
 }
