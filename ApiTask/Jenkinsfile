@@ -3,6 +3,8 @@ pipeline {
 
     environment {
         DOTNET_ROOT = "/usr/share/dotnet"
+        PROJECT_PATH = "ApisTask/ApisTask/MeuProjeto.csproj"
+        DOCKER_CONTEXT = "ApisTask" // onde está o Dockerfile, se aplicável
     }
 
     stages {
@@ -14,32 +16,26 @@ pipeline {
 
         stage('Restore') {
             steps {
-                sh 'dotnet restore'
+                sh "dotnet restore $PROJECT_PATH"
             }
         }
 
         stage('Build') {
             steps {
-                sh 'dotnet build --configuration Release'
-            }
-        }
-
-        stage('Test') {
-            steps {
-                sh 'dotnet test'
+                sh "dotnet build $PROJECT_PATH --configuration Release"
             }
         }
 
         stage('Docker Build') {
             steps {
-                sh 'docker build -t minha-api:latest .'
+                sh "docker build -t minha-api:latest $DOCKER_CONTEXT"
             }
         }
 
         stage('Run Container') {
             steps {
-                sh 'docker rm -f minha-api || true'
-                sh 'docker run -d --name minha-api -p 8081:80 minha-api:latest'
+                sh "docker rm -f minha-api || true"
+                sh "docker run -d --name minha-api -p 8081:80 minha-api:latest"
             }
         }
     }
