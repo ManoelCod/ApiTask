@@ -1,7 +1,17 @@
 pipeline {
     agent any
 
+    environment {
+        DOTNET_ROOT = "/usr/share/dotnet"
+    }
+
     stages {
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+
         stage('Restore') {
             steps {
                 sh 'dotnet restore'
@@ -31,6 +41,15 @@ pipeline {
                 sh 'docker rm -f minha-api || true'
                 sh 'docker run -d --name minha-api -p 8081:80 minha-api:latest'
             }
+        }
+    }
+
+    post {
+        success {
+            echo '✅ Build e deploy concluídos com sucesso!'
+        }
+        failure {
+            echo '❌ Algo deu errado no pipeline.'
         }
     }
 }
