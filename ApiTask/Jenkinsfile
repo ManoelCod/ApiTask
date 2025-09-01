@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOTNET_ROOT = "/usr/share/dotnet"
-        PROJECT_PATH = "ApisTask/ApisTask/MeuProjeto.csproj"
+        PROJECT_PATH = "ApisTask/ApisTask/ApiTask.csproj"
         DOCKER_CONTEXT = "ApisTask" // onde está o Dockerfile, se aplicável
     }
 
